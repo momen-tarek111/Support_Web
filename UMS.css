@@ -1,0 +1,240 @@
+img{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .5s;
+}
+section {
+    width: 90%;
+    margin: auto;
+}
+/* ------------------------------ */
+nav {
+    height: 70px;
+    background-color: #1c335f;
+}
+.parent {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.left-navbar {
+    display: flex;
+    margin-top: 15px;
+}
+.list-navbar {
+    display: flex;
+    margin-top: 10px;
+    width:60%;
+    justify-content: space-evenly; 
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
+.egypt-logo {
+    width: 4%;
+}
+.right-navbar {
+    width: 5%;
+    height: 5%;
+    margin-top: 15px;
+}
+.logos-navbar:hover {
+    
+color: rgb(162, 162, 255);
+}
+/* ---------------------------------------------- */
+.sec1 {
+
+    height: 100px;
+    margin-top: 20px;
+}
+.parent1 {
+    display: flex;
+    
+}
+.logo-ums {
+    width: 15%;
+}
+.parent1 p {
+    font-size: 20px;
+    color: #677294;
+    margin-top: 40px ;
+    margin-left: 15%;
+}
+/* ------------------------------------------- */
+.sec2 {
+    margin-top: 20px;
+    
+}
+.flexxing {
+ margin-top: 150px;
+}
+.carousel-item1 {
+    background: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:left ;
+    height: 600px;
+    
+}
+.carousel-item2 {
+    background: url(../img/header3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.carousel-item3 {
+    background: url(../img/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.text-carousel-item2 {
+    width: 80%;
+    margin: auto;
+    color: white;
+   
+}
+.flexxing-item3 {
+    position: absolute;
+    right: -200px;
+}
+.text-carousel-item2 h2{
+    font-size: 50px;
+    width: 60%;
+    margin-bottom: 20px;
+    
+}
+.buttons-sec2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.btn1-sec2-item2 {
+    background-color: #6fadfa;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: all .5s;
+}
+.btn2-sec2-item2 {
+    background-color: #6fadfa;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    transition: all .5s;
+}
+.btn1-sec2-item1 {
+    background-color: #f3af4e;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    transition: all .5s;
+}
+.btn-sec2-item3 {
+    background-color: #f3af4e;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    transition: all .5s;
+}
+.btn2-sec2-item1 {
+    background-color: #f3af4e;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    transition: all .5s;
+}
+.btn-sec2-item2:hover {
+  background-color: white;
+  color: black;
+  box-shadow:0 10px #6fadfa;
+}
+.btn-sec2-item1:hover {
+  background-color:#1c335f;
+  color: #f3af4e;
+  box-shadow:0 10px #f3af4e;
+}
+.btn-sec2-item3:hover {
+  background-color:#1c335f;
+  color: #f3af4e;
+  box-shadow:0 10px #f3af4e;
+}
+/* --------------------------------------------------------------- */
+
+/* --------------------------------------------- */
+.sec4 {
+    height: 800px;
+    margin-top: 120px;
+}
+.parent4 {
+    display: flex;
+}
+.logo-login {
+    width: 40%;
+}
+.form {
+    margin-top: 70px;
+    width: 55%;
+}
+.btn-submit {
+    width: 300px;
+    border-radius: 50px;
+    height: 50px;
+    opacity: .7;
+}
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------------- */
+
+.container3{
+    height: 500px;
+    background-color: white;
+ }
+ .rows{
+   overflow: auto;
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 100px;
+   margin-left: 100px;
+   padding-top: 100px;
+   padding-right: 100px;
+   font-size: 20px;
+   
+   
+ 
+ }
+
+ .column a{
+   color:#717171;
+ }
+ .column2 a{
+   color:#717171;
+ }
+ .icons{
+   font-size: 30px;
+   margin-right: 10px;
+   padding-right: 15px;
+   color:#717171;
+   
+ }
